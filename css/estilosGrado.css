@@ -1,0 +1,103 @@
+body{
+	width: 40%;
+	margin: 50px;
+	background-color:#D4FAF9;
+	font-family: Arial, Helvetica;
+	font-size: 20px
+
+	}
+.form{
+	
+	width: 60px;
+	height: 90px;
+	padding-left: 20px;
+	padding-top: 50px;
+	background-color: #e5dfcd;
+	border-radius: 900px;
+	margin: 10px;
+
+}
+.input[type=text]{
+	
+	size=20;
+	maxlength =20;
+}
+.input[type=submit]{
+	position: relative;
+	width: 40px;
+	height: 10px;
+	border-radius: 5px;
+	margin-left: 50px;
+	border:0x;
+	background-color: #32A43E;
+	font: 5px normal uppercase Helvetica, Arial, Serif;
+}
+.formulario{
+	border-radius: 200px;
+	size=200;
+	 maxlength =200;
+}
+article{
+	background: yellow;
+	padding-top:10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:10px;
+	text-align: justify;
+}
+.titulo {
+	font-family:'Lobster', cursive;
+}
+h1.titulo{
+	font-family:'Lobster', cursive;
+	text-align:  center;
+	font-size: 80px;
+	color: black;
+}
+a{
+	font-family:'Lobster', cursive;
+	padding-right: 20px;
+	padding-left:20px;
+	border-radius: 900px;
+}
+a:hover{
+	font-family:'Lobster', cursive;
+	padding-right: 20px;
+	padding-left:20px;
+	border-radius: 900px;
+	background: yellow;
+}
+a:hover.ama{
+	background: yellow;
+	color: black;
+}
+a:hover.ver{
+	background: green;
+	color: black;
+}
+nav{
+	background: #CCA522;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 900px;
+
+}
+img{
+	border-radius: 10px;
+
+}
+
+p{
+	color: LemonChiffon
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 100;
+	font-size: 1.3em;
+	font-variant: normal;
+	text-align: center;
+	text-indent: 1.3em;/*le da un tabulado*/
+	/* degradado*/
+	
+    background-image: linear-gradient(to right, yellow 0%,white 100%), 
+    url('w3css.gif');
+    background-blend-mode:darken;
+}

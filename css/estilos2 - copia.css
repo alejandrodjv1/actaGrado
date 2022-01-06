@@ -1,0 +1,69 @@
+.letra{
+	list-style: lower-alpha;
+	list-style-position: inside;
+}
+.vine{
+	color: black;
+	list-style: square;
+	list-style-position: inside;
+}
+.titulo {
+	font-family:'Lobster', cursive;
+}
+h1.titulo{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	 
+	font-size: 50px;
+	color: black;
+
+}
+a{
+	font-family:'Lobster', cursive;
+	padding-right: 20px;
+	padding-left:20px;
+	border-radius: 900px;
+}
+a:hover{
+	font-family:'Lobster', cursive;
+	padding-right: 20px;
+	padding-left:20px;
+	border-radius: 900px;
+	background: yellow;
+
+}
+a:hover.ama{
+	background: yellow;
+	color: black;
+}
+a:hover.ver{
+	background: green;
+	color: black;
+}
+nav{
+	background: #88D965;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 200px;
+
+}
+img{
+	border-radius: 900px;
+
+}
+
+p{
+	color: LemonChiffon;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 100;
+	font-size: 1.3em;
+	font-variant: normal;
+	text-align: justify;
+	text-indent: 1.3em;/*le da un tabulado*/
+	/* degradado*/
+	
+    background-image: linear-gradient(to right, yellow 0%,white 100%), 
+    url('w3css.gif');
+    background-blend-mode:darken;
+}

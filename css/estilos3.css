@@ -1,0 +1,260 @@
+
+
+body{
+	background-image:url("../imagenes/paredrocas.jpg");
+	background-color: #d6ecf2;
+	background-repeat: repeat ;
+	background-attachment:  ;
+	padding-top: auto;
+	padding-left: auto;
+	text-align: center;
+	width: 90%;
+	margin: 50px;
+	font-family: Arial, Helvetica;
+
+	}
+section{
+	width: 40%;
+	margin: 40px;
+	background-color: orange;*//
+	padding-top: auto;
+	padding-bottom:auto;
+	padding-left: auto;
+	padding-right: auto;
+	border-radius: 100px;
+}
+
+
+input{
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-size: 20px;
+	padding-top: 3px;
+}
+input:valid, textarea:valid {
+  background:#D8F781;
+}
+input:invalid, textarea:invalid {
+  background:#F5A9A9;
+}
+td col{
+	font-size: 20px;
+}
+.letra{
+	font-size: 20px;
+}
+td.letra{
+	color: black;
+
+}	
+td a{
+	color:black;
+	list-style: square;
+	list-style-position: inside;
+	font-family:'Arial', cursive;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left:20px;
+	border-radius: 900px;
+}
+nav{
+	font-size: 50px;
+}
+.imagen{
+	list-style-image: url("../imagenes/LetraA.png");
+	list-style-position: inside;
+}
+
+
+}
+.tabla1{
+	color: #A4FFEA;
+	font-family: 'Indie Flower', cursive; 
+	box-shadow: 10px 10px 10px; red;
+	align-content: center;
+}
+
+.tabla2{
+	color: #E8A60C;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+#demo{
+	background-color: white;color: black;
+}
+.caja2{
+	background-color: #d6ecf2;
+	color: black;
+	font-family: 'Indie Flower', cursive; 
+	box-shadow: 10px 10px 10px; red;
+	align-content: center;
+	text-align: center;
+}
+article table.caja2{
+	color: black;
+	background-color: #d6ecf2;
+
+}
+
+
+
+a{
+	color: black;
+	font-family:'Arial', cursive;
+	padding-right: 10px;
+	padding-left:10px;
+	border-radius: 900px;
+}
+
+a:hover{
+	font-family:'Arial', cursive;
+	padding-right: 5px;
+	padding-left:5px;
+	border-radius: 900px;
+	background: white;
+
+}
+
+a:hover.neg{
+	background: black;
+	color: white;
+}
+a:hover.bla{
+	background: white;
+	color: black;
+}
+
+
+img{
+	border-radius: 10px;
+	/*box-shadow: 10px 10px 10px;*/ 
+	padding: 5px;
+	width: 600px;
+	text-align: center;
+
+}
+
+p{
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 100;
+	font-size: 1.3em;
+	font-variant: normal;
+	text-align: justify;
+	text-indent: 1.3em;/*le da un tabulado*/
+	/* degradado*/
+	
+    /*background-image: linear-gradient(to right, yellow 0%,white 100%), 
+    url('w3css.gif');*/
+    background-blend-mode:darken;
+}
+
+h2{
+	text-align: center;
+	font-size: 10px;
+}
+h3{
+	text-align: left;
+	font-size: 10px; 
+}
+.titulo {
+	font-family:'Arial', cursive;
+}
+h1.titulo{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	 
+	font-size: 40px;
+	color: black;
+
+}
+
+
+/*nav.vine{
+	color: black;
+	list-style: square;
+	list-style-position: inside;
+}
+.vine{
+	color: red;
+	list-style: square;
+	list-style-position: inside;
+}*/
+.navegacion{
+	width: auto auto;
+	margin: 2px auto;
+	background: blue;
+	list-style: none;
+	
+	border-radius: 900px;
+	font-size: 20px;
+
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu{
+	list-style: square;
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 3px auto;
+	color: white;
+	background: blue;
+	text-decoration: none;
+	border-radius: 900px;
+	width: 100%;
+	
+}
+.menu  li  a:hover{
+	color: black;
+	background: white;
+	transition:all .3s;
+}
+.submenu{
+	position: absolute;
+	display: none;
+	background: blue;
+	
+}
+.submenu > li{
+	display: inline-block;
+}
+.submenu li a{
+	display: inline-block;
+	padding: 1px 1px;
+	color: white;
+	background: blue;
+	text-decoration: none;
+	width: 95%;
+}
+.menu li:hover .submenu{
+	display: block;
+
+}
+.sms{
+	background-color: #97FFFC;
+	width: 40px;
+	margin: 20px;
+	border: 10px solid #B0D3D2;
+	padding: 10px;
+}
+
+//*.nav li a{
+	background: blue;
+	color: white;
+	display: block;
+	border-style: 1px solid;
+	padding: 10px 12px;
+}*//
+
+
+}

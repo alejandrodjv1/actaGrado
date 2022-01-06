@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+    <link href="../css/estilosGrado.css" rel="stylesheet" type="text/css" />
+     <link href="../css/estilos2.css" rel="stylesheet" type="text/css" />
+     <link href="../css/estilos3.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+	</head>
+<body>
+	<header>
+        <div align="center">
+            <table>
+               
+                <tr>
+                    <td><h1>Oficina   </h1></td>
+                    
+                    <td><img src="../imagenes/ActoGraduacion.jpg" alt="Logo" width="100px"></td>
+                    <td><h1>  Grado</h1></td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <nav>
+        <a href="../index.html"             class="neg"> Inicio</a>
+        <a href="../estudiante/tabla.php"   class="neg"> Estudiante</a>
+        <a href="../profesor/tabla.php"     class="neg"> Profesor</a>
+        <a href="tabla.php"                 class="neg"> Escuela</a>
+        <a href="../tesis/tabla.php"        class="neg"> Tesis</a>
+        <a href="../jurado/tabla.php"       class="neg"> Jurado</a>
+        <a href="../acta/tabla.php"         class="neg"> Acta</a>
+        <a href="../catalogo/tabla.php"     class="neg"> Catalogo</a>
+        <a href="../index.html"             class="neg">Salir</a>
+    </nav>
+
+	<center>
+		<section class="row">
+                <article >
+                    <h1>Datos de la Escuela</h1>
+
+                    <table align="center" border="2px" >
+                        <form action="operacion_guardar.php" method="POST">
+                            <td>
+                                <input type="text" name="" list="escuela"/>
+                                <datalist id="escuela">
+                                    <option value="41">Arquitectura </option>
+                                    <option value="42">Ing. Civil </option>
+                                    <option value="43">Ing. Electrica </option>
+                                    <option value="44">Ing. Electronica </option>
+                                    <option value="45">Ing. Industrial </option>
+                                    <option value="46">Ing. Mant Mec. </option>
+                                    <option value="47">Ing. de Sistemas </option>
+                                    <option value="48">Ing. de Diseño Industrial </option>
+                                    <option value="49">Ing. Quimica </option>
+                                    <option value="50">Ing. de Petroleos </option>
+                                    <option value="51">Ing. Agronomica </option>
+                                </datalist><br/>
+                            </td>
+                            <tr>
+                                <td><label>NOMBRE:</label></td>
+                                <td><input type="text" REQUIRED name="descripcion" placeholder="solo letras..." value=""/><br><br></td>
+                            </tr>
+                            
+                            <td><input type="submit" name="Aceptar" value="Aceptar"></td>
+                            <td><a href="eliminar.php?escuela= <?php echo $row['escuela'];?>">Eliminar</a></td>
+                            <td><a href="tabla.php">Regresar</a></td></tr>
+                                                   
+                        </form>
+                    </table>
+                </article>
+        </section>
+		
+	</center>
+</body>
+</html>

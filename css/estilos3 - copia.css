@@ -1,0 +1,69 @@
+body{
+	background-image: url("./imagenes/f15.jpg");
+	background-color: #28401E;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	background-color: #28401E;
+	font-family: Arial, Helvetica;
+
+	}
+section{
+	width: 100%;
+	margin: auto;
+	//*background-color:#507F3C;*//
+	padding-top: 200px;
+	padding-bottom:200px;
+	padding-left: 80px;
+	padding-right: 50px;
+	border-radius: 100px;
+}
+article{
+	background: #FF530D;
+	padding-top:20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom:10px;
+	text-align: center;
+
+.mapa{
+	width: 20%;
+	margin-left: :auto;
+	margin-right: auto;
+	background-color: red;
+}
+.contacto{
+	width: 80%;
+	margin-left: 50%;
+	margin-right: 50%;
+	background-color:#117D22;
+	
+	font-weight: bold;
+	align-content: center;
+	
+
+}
+.imagen{
+	list-style-image: url("../imagenes/LetraA.png");
+	list-style-position: inside;
+}
+
+
+}
+.tabla1{
+	color: #A4FFEA;
+	font-family: 'Indie Flower', cursive; 
+	box-shadow: 10px 10px 10px; red;
+	align-content: center;
+}
+
+.tabla2{
+	//*color: #E8A60C;
+	font-family: 'Barlow Condensed', sans-serif;*//
+}
+#demo{
+	background-color: white;color: black;
+}

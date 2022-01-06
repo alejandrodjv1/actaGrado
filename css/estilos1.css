@@ -1,0 +1,26 @@
+body{
+	background-color: yellow;
+	font-family: Arial, Helvetica;
+}
+.tabla1{
+	color: #A4FFEA;
+	font-family: 'Indie Flower', cursive; 
+	box-shadow: 10px 10px 10px; red;
+	align-content: center;
+}
+
+.tabla2{
+	color: E8A60C;
+	font-family: 'Barlow Condensed', sans-serif;
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+}
+h1{
+	color: blue;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+h6{
+	color: E8A60C;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
